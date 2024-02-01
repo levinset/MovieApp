@@ -1,12 +1,12 @@
 export default function Footer() {
   return (
-    <div className="bg-color-gray">
+    <div className="pb-8 bg-color-gray">
       <hr className=" h-0.5 bg-slate-400 shadow-lg mx-4 " />
-      <div className=" flex flex-col margin-regulation gap-3 mt-10">
-        <div className=" flex flex-row items-center gap-3 ">
+      <div className="flex flex-col gap-3 mt-10 margin-regulation">
+        <div className="flex flex-row items-center gap-3 ">
           <span className="text-2xl font-bold"> MovieApp</span>
           <span>/</span>
-          <span className=" italic text-xl ">by Coding School</span>
+          <span className="text-xl italic ">by Coding School</span>
         </div>
         <p className="text-color-gray">created in 2024 / January</p>
         <p className="text-color-gray w-[50%] ">
@@ -15,7 +15,7 @@ export default function Footer() {
           maintained by our users. More information about the API can be found
           here -
           <a
-            className=" text-blue-700 underline "
+            className="text-blue-700 underline "
             href="https://www.omdbapi.com/"
           >
             https://www.omdbapi.com/

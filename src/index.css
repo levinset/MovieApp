@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply bg-[#f8f9fa];
+}
+
 .bg-color-gray {
   @apply bg-[#f8f9fa];
 }
 .margin-regulation {
-  @apply px-8 container mx-auto;
+  @apply container px-8 mx-auto;
 }
 .text-color-gray {
   @apply text-[#939393];
