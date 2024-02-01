@@ -9,7 +9,7 @@ export default function Footer() {
           <span className="text-xl italic ">by Coding School</span>
         </div>
         <p className="text-color-gray">created in 2024 / January</p>
-        <p className="text-color-gray w-[50%] ">
+        <p className="text-color-gray w-[50%] max-sm:w-full ">
           Created with: The OMDb API is a RESTful web service to obtain movie
           information. All content and images on the site are contributed and
           maintained by our users. More information about the API can be found
