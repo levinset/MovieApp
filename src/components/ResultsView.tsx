@@ -5,7 +5,7 @@ import ResultsCard from "./ResultsCard";
 
 export default function ResultsView() {
   return (
-    <div>
+    <div className="bg-color-gray ">
       <ResultsCard />
     </div>
   );

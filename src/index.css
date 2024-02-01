@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-color-gray {
+  @apply bg-[#f8f9fa];
+}
+.margin-regulation {
+  @apply px-8 container mx-auto;
+}
+.text-color-gray {
+  @apply text-[#939393];
+}
+.button-color {
+  @apply bg-gradient-to-r from-[#ed7693] to-[#ec8870];
+}
+.part-width {
+  @apply w-[8rem];
+}
