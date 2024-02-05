@@ -1,11 +1,12 @@
-///
+// Import libraries
 
-//import components
 import Footer from "../components/Footer";
 import MovieShow from "../components/MovieShow";
 import NavBar from "../components/NavBar";
 
-//main component
+//
+
+// MoviePage component
 export default function MoviePage() {
   return (
     <div>

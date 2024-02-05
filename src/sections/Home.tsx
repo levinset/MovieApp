@@ -1,14 +1,10 @@
-//
+// Import libraries
 
-
-
-//import components
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import SearchForm from "../components/SearchForm";
 
-
-//main component
+// Main component
 export default function Home() {
   return (
     <div>
